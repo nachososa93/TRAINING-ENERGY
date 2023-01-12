@@ -211,14 +211,54 @@ footer ul li img {
     gap: 150px;
 }
 .cards{
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 800px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 3px solid var(--gris);
     border-radius: 30px;
+    gap: 30px;
+    
 }
 .cards ul {
-    
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items:flex-start;
+}
+#basico ul :nth-child(n+5){
+  text-decoration:line-through;
+  color: darkgray;
+}
+#plus ul :nth-child(n+6){
+  text-decoration: line-through;
+  color: darkgray;
+}
+.cards ul li {
+  list-style:circle;
+}
+.cards ul span{
+  font-size: 20px;
+}
+.cards h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.cards img {
+  width: 490px;
+  height: 276px;
+}
+.cards button{
+  background-color:var(--celeste);
+  padding:20px 40px;
+  border: #0b132b 3px solid;
+  border-radius: 20px;
+}
+.cards button a {
+  color: #0b132b;
+  font-size: 17px;
+
 }
