@@ -67,7 +67,7 @@
       <h2>PLANES DE ENTRENAMIENTOS</h2>
       <div class="cards-training">
         <ul>
-          <li class="cards" id="basico">
+          <li class="cards" id="cartabasico">
             <h3>BASICO</h3>
             <img src="./assets/tendencias_fitness_2023_crossfit.webp" alt="">
             <ul><span>El plan incluye </span> 
@@ -79,7 +79,7 @@
             </ul>
             <button><a href="">¡Inscribete ahora!</a></button>
           </li>
-          <li class="cards" id="plus">
+          <li class="cards" id="cartaplus">
             <h3>PLUS</h3>
             <img src="./assets/workout.jpeg" alt="imggim">
             <ul><span>El plan incluye </span> 
@@ -106,55 +106,53 @@
         </ul>
       </div>
     </section>
-<section class="ubicacion" id="ubicacion">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d842.1416706661684!2d-63.23430983034307!3d-32.40397546608145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42c3c3b8d189%3A0xe222850fccdf6ee5!2sIndependencia%2056%2C%20Villa%20Mar%C3%ADa%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1673414938110!5m2!1ses-419!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
 <section class="formcontact">
-  <H3>SOLICITA INFORMACIO SOBRE ENTRENAMIENTOS PERSONALIZADOS</H3>
-  <H6>¡empeza hoy mismo!</H6>
+  <H3>SOLICITA INFORMACION SOBRE ENTRENAMIENTOS PERSONALIZADOS</H3>
+  <H6>¡ empeza hoy mismo !</H6>
   <form action="index.html" class="inscripcion">
     <label for="name">Nombre completo</label>
-    <input type="text" id="name" placeholder="Introduzca su nombre completo">
+    <input type="text" id="name" placeholder="Introduzca su nombre completo" required>
     <label for="email">E-mail</label>
-    <input type="email" id="email" placeholder="Introduzca su E-mail">
+    <input type="email" id="email" placeholder="Introduzca su E-mail" required>
     <label for="telefono">N° de telefono</label>
-    <input type="tel" name="telefono" id="telefono" placeholder="Introduzca su N° de telefono">
-    <div class="radio">
-    <input type="radio" name="entrenamiento" id="basico">
-    <label for="basico">Entrenamiento basico</label>
-    <input type="radio" name="entrenamiento" id="PLUS">
-    <label for="PLUS">Entrenamiento PLUS</label>
-    <input type="radio" name="entrenamiento" id="vip">
-    <label for="vip">Entrenamiento VIP</label>
+    <input type="number" name="telefono" id="telefono" placeholder="Introduzca su N° de telefono" required>
+    <label id="labelradio">Entrenamiento BASICO<input type="radio" name="tipos" id="basico" value="basico" required></label>
+    <label id="labelradio">Entrenamiento PLUS<input type="radio" name="tipos" id="plus" value="plus" required></label>
+    <label id="labelradio">Entrenamiento VIP<input type="radio" name="tipos" id="vip" value="vip" required></label>
+    <div class="button-form">
+    <input type="submit" name="submit" id="submit">
+    <input type="reset" name="reset" id="reset">
   </div>
-    <label for="submit"></label>
-    <input type="submit" name="sibmit" id="submit">
   </form>
 </section>
-    <footer>
-      <ul>
-        <li><a href="https://wa.me/5493535080740"><img src="./assets/whatsapp.png" alt="" /></a></li>
-        <li>
-          <a href="https://www.instagram.com/training.energy/"><img
-            src="./assets/iconfinder-social-media-applications-3instagram-4102579_113804 (1).png"
-            alt=""
-          /></a>
-        </li>
-        <li><a href=""><img src="./assets/facebook.png" alt="" /></a></li>
-      </ul>
-      <h2>Desarrolado por <span>DEV-IES</span></h2>
-    </footer>
-  </body>
-</html>
-"Nuestro gimnasio es un lugar de entrenamiento y bienestar para todas las edades
-y niveles de habilidad. Ofrecemos una amplia variedad de clases colectivas y
-entrenadores personales para ayudar a nuestros miembros a alcanzar sus objetivos
-de fitness. Nuestro ambiente acogedor y amigable promueve una cultura de apoyo y
-motivación entre los miembros. Además, nuestros horarios de apertura flexibles y
-membresías asequibles hacen que sea fácil para cualquiera formar parte de
-nuestra comunidad de entrenamiento. ¡Visítenos hoy mismo y comience su camino
-hacia una vida más saludable y actiava!"
-
-       
+<section class="contact" id="contact">
+  <h2>Datos de contacto</h2>
+  <p>Estas son nuestras redes sociales y de contacto. Para cualquier consulta no dudes en utilizarlas. </p>
+ <div class="iframe-info">
+  <div class="info-contact">
+    <ul>
+    <li>
+      <a href="https://wa.me/5493535080740">
+        <img src="./assets/whatsapp.png" alt="" />
+      </a>
+      +54 9 3535 08-0740</li>
+    <li>
+      <a href="https://www.instagram.com/training.energy/">
+        <img
+        src="./assets/iconfinder-social-media-applications-3instagram-4102579_113804 (1).png"
+        alt=""/>
+      </a>
+    INSTAGRAM:  TRAINING-ENERGY</li>
+    <li>
+      <a href="">
+        <img src="./assets/marcador-de-posicion.png" alt="Ubicacion" />
+      </a>
+      INDEPENDENCIA 56 - BARRIO AMEGHINO - VILLA MARIA</li>
+  </ul>
+</div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d842.1416706661684!2d-63.23430983034307!3d-32.40397546608145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42c3c3b8d189%3A0xe222850fccdf6ee5!2sIndependencia%2056%2C%20Villa%20Mar%C3%ADa%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1673414938110!5m2!1ses-419!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> 
+</section>
+<footer><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla blanditiis eos in quisquam incidunt quo quis dolores accusamus. Quo in rem ad tempora neque sunt, facere sit mollitia eum nesciunt?</p></footer>
 </body>
 </html>
