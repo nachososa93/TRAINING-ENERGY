@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Fjalla One", sans-serif;
+    color: whitesmoke;
+    scroll-behavior: smooth;
+    
+  }
+  :root {
+    --azuloscuro: #0b132b;
+    --grisoscuro: #1c2541;
+    --gris: #3a506b;
+    --celeste: #5bc0be;
+    --verde: #6fffe9;
+  }
+  body {
+    scroll-behavior: smooth;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c2541;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230b132b' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+
+  }
+  header nav img {
+    width: 90px;
+    height: 90px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    box-shadow: 5px 5px 5px var(--verde);
+  
+  }
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+  }
+ .labelheader{
+    display: none;
+ }
+ #menulabel{
+    display: none;
+ }
+.ul-nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.ul-nav-login li a{
+    color:var(--grisoscuro);
+    background-color: #5bc0be;
+    padding: 5px 20px;
+    border: 3px solid var(--gris);
+    border-radius: 10px;
+    
+}
+.log-in{
+    width: 600px;
+    border: 1px solid red;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.log-in form{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 100px;
+font-size: 25px;
+}
+.log-in-form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-label-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#log-in-submit{
+    padding: 8px 20px;
+}
