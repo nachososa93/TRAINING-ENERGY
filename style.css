@@ -328,6 +328,7 @@ button:hover {
 }
 .cards button a:hover{
 color: var(--verde);
+transition: all;
 }
 .formcontact {
   display: flex;

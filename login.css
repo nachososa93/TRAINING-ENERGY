@@ -67,13 +67,24 @@
     
 }
 .log-in{
-    width: 600px;
-    border: 1px solid red;
-    height: 700px;
+    width: 700px;
+    height: 900px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 150px;
+    background-color: var(--gris) ;
+    box-shadow: 12px 13px 27px 0px var(--celeste);
+    border-radius: 20px;
+    animation: log-in 2s ease-in 0.5s 1 normal none;
+    flex-direction: column;
+}
+.log-in h2{
+  font-size:40px;
+  color: #5bc0be;
+  font-weight: 600;
+  margin-top: 50px;
+
 }
 .log-in form{
     display: flex;
@@ -81,18 +92,68 @@
 justify-content: center;
 align-items: center;
 gap: 100px;
-font-size: 25px;
+font-size: 30px;
+width: 100%;
 }
 .log-in-form label {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .div-label-form{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
+    width: 500px;
+    height: 180px;
 }
 #log-in-submit{
     padding: 8px 20px;
+    color: var(--azuloscuro);
+  font-weight: 400;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 50px;
 }
+
+.div-label-form label{
+  font-size:30px;
+  color: var(--celeste);
+  font-weight: 800;
+
+}
+.div-label-form input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10PX;
+  border: var(--grisoscuro) solid 3px;
+  color: var(--azuloscuro);
+  font-size:20px ;
+
+}
+@keyframes log-in {
+	0% {
+		opacity: 0;
+		transform: translateX(550px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes cards {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
