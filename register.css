@@ -66,7 +66,7 @@ header nav{
   border-radius: 10px;
   
 }
-.log-in{
+.register{
   width: 700px;
   height: 900px;
   display: flex;
@@ -76,21 +76,21 @@ header nav{
   background-color: var(--gris) ;
   box-shadow: 12px 13px 27px 0px var(--celeste);
   border-radius: 20px;
-  animation: log-in 2s ease-in 0.5s 1 normal none;
+  animation: log-in 2s ease-in 1 normal none;
   flex-direction: column;
 }
-.log-in h2{
+.register h2{
 font-size:40px;
 color: #5bc0be;
 font-weight: 600;
 margin-top: 50px;
 
 }
-.log-in h2 span:hover{
+.register h2 span:hover{
 
 
 }
-.log-in form{
+.register form{
   display: flex;
   flex-direction: column;
 justify-content: center;
@@ -99,7 +99,7 @@ gap: 100px;
 font-size: 30px;
 width: 100%;
 }
-.log-in-form label {
+.register-form label {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,11 +110,11 @@ width: 100%;
   justify-content: space-between;
   width: 60%;
   width: 500px;
-  height: 180px;
+  height: 30px;
 }
-#log-in-submit{
-  padding: 8px 20px;
-  color: var(--azuloscuro);
+.register form button{
+padding: 8px 20px;
+color: var(--azuloscuro);
 font-weight: 400;
 font-size: 15px;
 width: 150px;
@@ -123,7 +123,9 @@ border-radius: 10px;
 cursor: pointer;
 margin-bottom: 50px;
 }
-
+.register form button a{
+  color: var(--azuloscuro);
+}
 .div-label-form label{
 font-size:30px;
 color: var(--celeste);
@@ -138,6 +140,20 @@ border: var(--grisoscuro) solid 3px;
 color: var(--azuloscuro);
 font-size:20px ;
 
+}
+footer p a img {
+  width: 150px;
+  height: 31px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+footer{
+  padding-top: 55px;
 }
 @keyframes log-in {
 0% {

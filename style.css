@@ -121,7 +121,7 @@ button:hover {
   color: var(--gris);
   font-weight: 1200;
   font-size: 120px;
-  animation: myAnim 2s ease-in 0.5s 1 normal none;
+  animation: myAnim 2s ease-in 1 normal none;
 }
 .hero h1 span {
   color: var(--verde);
@@ -130,7 +130,7 @@ button:hover {
   color: whitesmoke;
 }
 .hero-img{
-  animation: heroimg 2s ease-in 0.5s 1 normal none;
+  animation: heroimg 2s ease-in 1 normal none;
 }
 .marcas {
   display: flex;

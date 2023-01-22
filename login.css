@@ -76,7 +76,7 @@
     background-color: var(--gris) ;
     box-shadow: 12px 13px 27px 0px var(--celeste);
     border-radius: 20px;
-    animation: log-in 2s ease-in 0.5s 1 normal none;
+    animation: log-in 2s ease-in 1 normal none;
     flex-direction: column;
 }
 .log-in h2{
@@ -134,6 +134,20 @@ margin-bottom: 50px;
   color: var(--azuloscuro);
   font-size:20px ;
 
+}
+footer p a img {
+  width: 150px;
+  height: 31px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+footer{
+  padding-top: 55px;
 }
 @keyframes log-in {
 	0% {
