@@ -135,6 +135,20 @@ margin-bottom: 50px;
   font-size:20px ;
 
 }
+.log-in form button{
+  padding: 8px 20px;
+  color: var(--azuloscuro);
+  font-weight: 400;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  }
+  .log-in form button a{
+    color: var(--azuloscuro);
+  }
 footer p a img {
   width: 150px;
   height: 31px;

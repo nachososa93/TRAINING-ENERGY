@@ -72,9 +72,13 @@
     align-items: center;
     flex-direction: column;
     padding: 50px ;
-    width: 100%;
+    width: 80%;
+    margin-top: 50px;
     height:600px;
     gap: 100px;
+    box-shadow: 12px 13px 27px 0px var(--celeste);
+    border-radius: 20px;
+    animation: log-in 2s ease-in 1 normal none;
   }
 
   .accountcreated-spam h3{
