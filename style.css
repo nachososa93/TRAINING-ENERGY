@@ -31,15 +31,15 @@ nav {
   align-items: center;
   align-content: center;
   width: 100%;
-
   flex-wrap: wrap-reverse;
-  position: relative;
+  position:fixed;
   top: 0;
   left: 0;
   background-color: #1c2541;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230b132b' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   box-shadow: 5px 5px 5px var(--verde);
   height: 100px;
+  z-index: 1;
 }
 header{
   width: 100%;
@@ -120,7 +120,7 @@ button:hover {
   width: 100%;
   padding-top: 100px;
   padding: 20px 50px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .hero-container {
   display: flex;
@@ -208,11 +208,11 @@ button:hover {
   flex-direction: column;
   width: 1300px;
   gap: 40px;
-  padding: 50px;
+ padding:50px;
   background-color: var(--gris);
   border-radius: 20px;
-  padding-top: 60px;
   box-shadow: 12px 13px 27px 0px var(--celeste);
+  margin-top: 100px;
 }
 .info-contact {
   display: flex;
@@ -243,7 +243,9 @@ button:hover {
 .numero-profe {
   display: flex;
   flex-direction: column;
-}
+justify-content: center;
+align-items: flex-start;}
+
 .iframe-info iframe {
   width: 750px;
   height: 400px;
@@ -265,8 +267,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 80px;
-  padding-top: 1  0px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
 }
 .tipos-de-entrenamientos h2 {
   font-size: 40px;
@@ -344,8 +347,10 @@ transition: all;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 50px;
+  padding: 0px 50px;
   gap: 30px;
+  padding-top: 120px;
+
 }
 .inscripcion {
   display: flex;
@@ -431,6 +436,17 @@ footer{
   background-color: #0b132b;
   color: #6fffe9;
   cursor: pointer;
+}
+.ws-sticky{
+  display: flex;
+  position:fixed;
+  bottom: 30px;
+  right: 30px;
+
+}
+.ws-sticky img{
+  width: 100px;
+  height: 100px;
 }
 @keyframes myAnim {
 	0% {

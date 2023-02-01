@@ -32,15 +32,15 @@
     align-items: center;
     align-content: center;
     width: 100%;
-  
     flex-wrap: wrap-reverse;
-    position: relative;
+    position:fixed;
     top: 0;
     left: 0;
     background-color: #1c2541;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230b132b' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     box-shadow: 5px 5px 5px var(--verde);
     height: 100px;
+    z-index: 1;
   }
   header{
     width: 100%;
@@ -111,20 +111,7 @@
   button:hover {
     color: whitesmoke;
   }
-  .calendarioclase{
-    padding-top: 50px;
-    gap: 50px ;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .calendarioclase form{
-    display: flex;
-    gap: 50px;
-  }
-  .calendarioclase label input {
-    color:var(--azuloscuro);
-  }
+  
  h2{
   color:whitesmoke;
   font-size: 35px;
@@ -133,13 +120,15 @@
  }
   .img-gim h2 {
     text-align: center;
-    font-size: 2rem;
-    padding-top: 50px;
+    font-size: 45px;
+    padding-top: 50px;  
+    font-weight: 800;
 }
 .img-gim{
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding-top: 120px;
   
 }
 
@@ -182,12 +171,17 @@ box-shadow: 10px 10px 15px var(--verde)
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 120px;
   flex-direction: column;
   gap: 80px;
 }
 .video-instructivos ul li video{
   border-radius: 30px;
+}
+.planalimentacion img{
+  width: 1200px;
+  border-radius: 50px;
+  margin-top: 120px;
 }
 
 @keyframes slide {

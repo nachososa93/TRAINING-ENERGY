@@ -30,10 +30,9 @@
         <input type="checkbox" name="checkbox" id="menulabel" />
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Reserva tu clase</a></li>
-          <li><a href="#">Imagenes del gimnasio</a></li>
-          <li><a href="#">Videos instructivos</a></li>
-          <li><a href="#">Plan de alimentacion</a></li>
+          <li><a href="#img-gim">Imagenes del gimnasio</a></li>
+          <li><a href="#videos-instructivos">Videos instructivos</a></li>
+          <li><a href="#planalimentacion">Plan de alimentacion</a></li>
         </ul>
         <div class="buttons-portal">
           <button class="logout">
@@ -42,18 +41,8 @@
         </div>
       </nav>
     </header>
-    <section class="calendarioclase">
-      <h2 id="titulos">Eleji el dia y horario de tus clases.</h2>
-      <form action="claseagendada.html">
-        <label for="day"
-          >Fecha de clase<input type="datetime-local" id="day" name="enviar"
-        /></label>
-        <label for="enviar"
-          >Confirmar clase<input type="submit" id="enviar"
-        /></label>
-      </form>
-    </section>
-    <section class="img-gim">
+  
+    <section class="img-gim" id="img-gim">
       <h2>Algunas imagenes de nuestro gimnasio</h2>
 
       <div class="slide-img">
@@ -95,7 +84,7 @@
       </div>
     </section>
 
-    <section class="video-instructivos">
+    <section class="video-instructivos" id="videos-instructivos">
         <h2>Videos instructivos para que puedas realizar home-training</h2>
         
         <div class="div-videos">
@@ -112,28 +101,9 @@
         </ul>
     </div>
     </section>
-    <section class="planalimentacion">
-        <table>
-            <th>.</th>
-            <th>LUNES</th>
-           <th>MARTES</th>
-           <th>MIERCOLES</th>
-           <th>JUEVES</th>
-           <th>VIERNES</th>
-           <th>SABADO</th>
-           <th>DOMINGO</th>
-           </TR>
-          
-            <TD>Desayuno</TD>
-            <TD><ul><li>Bebida vegetal</li>
-            <li>Bocadillo integral de jamon</li></ul></TD>
-            <TD>2</TD>
-            <TD>3</TD>
-            <TD>4</TD>
-            <TD>5</TD>
-            <TD></TD>
-           </TR>
-        </table>
+    <section class="planalimentacion" id="planalimentacion">
+      <img src="./assets/menu semanal planificador de comidas saludable verde.png" alt="">
     </section>
+    
   </body>
 </html>
