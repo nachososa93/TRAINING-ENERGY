@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -14,13 +14,14 @@
   --gris: #3a506b;
   --celeste: #5bc0be;
   --verde: #6fffe9;
-  --verdeclaro:#bbffff;
+  --verdeclaro: #bbffff;
 }
 body {
   scroll-behavior: smooth;
   align-items: center;
   justify-content: center;
   display: flex;
+  width: 100%;
   flex-direction: column;
   background-color: #1c2541;
   max-width: 1980px;
@@ -34,7 +35,7 @@ nav {
   align-content: center;
   width: 100%;
   flex-wrap: wrap-reverse;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #1c2541;
@@ -43,7 +44,7 @@ nav {
   height: 100px;
   z-index: 1;
 }
-header{
+header {
   width: 100%;
 }
 #home {
@@ -57,7 +58,6 @@ header{
   gap: 100px;
   width: 70%;
   align-items: center;
- 
 }
 
 .navheader ul li {
@@ -101,14 +101,13 @@ header{
   width: 120px;
   height: 50px;
 }
-.buttons-register button:hover{
+.buttons-register button:hover {
   background-color: var(--celeste);
   color: #1c2541;
-
 }
 .buttons-register button a {
   padding: 12px 20px;
-  height:fit-content;
+  height: fit-content;
 }
 
 .navheader li a:hover,
@@ -139,7 +138,7 @@ button:hover {
 .hero h1 span:hover {
   color: whitesmoke;
 }
-.hero-img{
+.hero-img {
   animation: heroimg 2s ease-in 1 normal none;
 }
 .marcas {
@@ -187,8 +186,8 @@ button:hover {
 .texto-about-us {
   display: flex;
   flex-direction: column;
-  width: 50%;
   gap: 30px;
+  padding: 0px 30px;
   font-size: 25px;
   word-spacing: 8px;
   line-height: 50px;
@@ -210,7 +209,7 @@ button:hover {
   flex-direction: column;
   width: 1300px;
   gap: 40px;
- padding:50px;
+  padding: 50px;
   background-color: var(--gris);
   border-radius: 20px;
   box-shadow: 12px 13px 27px 0px var(--celeste);
@@ -245,8 +244,9 @@ button:hover {
 .numero-profe {
   display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: flex-start;}
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .iframe-info iframe {
   width: 750px;
@@ -271,7 +271,6 @@ align-items: flex-start;}
   gap: 80px;
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 .tipos-de-entrenamientos h2 {
   font-size: 40px;
@@ -297,7 +296,7 @@ align-items: flex-start;}
   box-shadow: 12px 13px 27px 0px var(--celeste);
 }
 .cards ul {
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 30px;
   justify-content: center;
@@ -334,15 +333,15 @@ align-items: flex-start;}
 .cards button a {
   color: #0b132b;
   font-size: 17px;
- padding: 20px 40px;
+  padding: 20px 40px;
 }
-.cards button:hover{
+.cards button:hover {
   background-color: #0b132b;
   border: 3px solid var(--celeste);
 }
-.cards button a:hover{
-color: var(--verde);
-transition: all;
+.cards button a:hover {
+  color: var(--verde);
+  transition: all;
 }
 .formcontact {
   display: flex;
@@ -350,11 +349,10 @@ transition: all;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  
+
   padding: 0px 50px;
   gap: 30px;
   padding-top: 120px;
-
 }
 .inscripcion {
   display: flex;
@@ -427,144 +425,140 @@ footer p {
   gap: 10px;
   padding: 20px;
 }
-footer{
+footer {
   padding-top: 55px;
 }
-.numero-profe a:hover{
-  color:var(--verde );
-}
-.info-contact ul li a:hover{
+.numero-profe a:hover {
   color: var(--verde);
 }
-#submit:hover, #reset:hover{
+.info-contact ul li a:hover {
+  color: var(--verde);
+}
+#submit:hover,
+#reset:hover {
   background-color: #0b132b;
   color: #6fffe9;
   cursor: pointer;
 }
-.ws-sticky{
+.ws-sticky {
   display: flex;
-  position:fixed;
+  position: fixed;
   bottom: 30px;
   right: 30px;
-
 }
-.ws-sticky img{
+.ws-sticky img {
   width: 100px;
   height: 100px;
 }
 @keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 @keyframes heroimg {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 @keyframes cards {
-	0% {
-		transform: scale(0);
-	}
+  0% {
+    transform: scale(0);
+  }
 
-	100% {
-		transform: scale(1);
-	}
+  100% {
+    transform: scale(1);
+  }
 }
-@media (max-width:1600px)
-{
-  .hero-img{
+@media (max-width: 1600px) {
+  .hero-img {
     z-index: -1;
     position: absolute;
     top: 130px;
   }
-  .hero{
+  .hero {
     margin-top: 300px;
     width: 100%;
-   padding-left: 120px;
+    padding-left: 120px;
   }
-  .cards-training{
-   
-    margin: 0px 40px  ;
+  .cards-training {
+    margin: 0px 40px;
   }
   .cards-training ul {
-    gap: 10px;  
+    gap: 10px;
   }
-  .tipos-de-entrenamientos{
+  .tipos-de-entrenamientos {
     padding: 50px;
     width: 100%;
   }
-  .cards{
+  .cards {
     width: 400px;
     object-fit: cover;
   }
   .cards img {
     object-fit: cover;
-  width: 100%; 
-  height:100%; 
+    width: 100%;
+    height: 100%;
+  }
 }
-}
-@media (max-width:1440px)
-{
+@media (max-width: 1440px) {
   .navheader ul {
     gap: 5px;
-
   }
-  .buttons-register{
+  .buttons-register {
     gap: 5px;
   }
   .ulnav li a {
     font-size: 15px;
   }
-  .hero-img{
+  .hero-img {
     z-index: -1;
     position: absolute;
     top: 130px;
   }
-  .hero{
+  .hero {
     margin-top: 300px;
     width: 100%;
-   padding-left: 120px;
+    padding-left: 120px;
   }
-  .marcas{
+  .marcas {
     margin-top: 150px;
   }
-  .tipos-de-entrenamientos{
+  .tipos-de-entrenamientos {
     gap: 10px;
   }
-  .cards-training ul{
+  .cards-training ul {
     gap: 30px;
   }
-  .cards{
+  .cards {
     width: 400px;
   }
   .cards img {
-   width:100%
+    width: 100%;
   }
-.about-us {
-  gap: 0px;
+  .about-us {
+    gap: 0px;
+  }
+  .contact {
+    width: 1000px;
+  }
 }
-.contact{
-  width: 1000px;
-}
-}
-@media (max-width:1080px){
-  .buttons-register{
+@media (max-width: 1080px) {
+  .buttons-register {
     gap: 10px;
   }
-  .navheader{
+  .navheader {
     flex-wrap: nowrap;
   }
   .navheader ul li a {
@@ -574,30 +568,32 @@ footer{
   .navheader ul {
     padding-right: 50px;
   }
-  .hero h1   {
+  .hero h1 {
     color: var(--verdeclaro);
   }
   .hero img {
     width: 800px;
-    position:absolute;
+    position: absolute;
     top: 250;
-    right:-400px;
+    right: -400px;
   }
-  .marcasimg{
+  .marcasimg {
     gap: 100px;
   }
-  .about-us{
+  .about-us {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0;
     margin: 0;
-
+  }
+  .about-us img {
+    /* width: 500px; */
   }
   .cards img {
     display: none;
   }
-  .cards{
+  .cards {
     gap: 100px;
     width: 250px;
     height: 700px;
@@ -606,125 +602,164 @@ footer{
     list-style-type: none;
     width: 230px;
   }
- .inscripcion label{
-  width: 100%;
- }
-  .inscripcion{
+  .inscripcion label {
     width: 100%;
   }
-  .contact{
+  .inscripcion {
+    width: 100%;
+  }
+  .contact {
     width: 800px;
   }
-  .contact iframe{
+  .contact iframe {
     width: 400px;
   }
-  }
-  @media (max-width:820px){
-    .navheader ul {
-      display: none;
-      position: absolute  ;
+}
+@media (max-width: 820px) {
+  .navheader ul {
+    display: none;
+    position: absolute;
     top: 105px;
     left: 70px;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      flex-direction: column;
-      background-color: #4A4E67;
-      border: solid 2px var(--azuloscuro);
-      border-radius: 0px 0px 20px 20px  ;
-      padding: 0;
-    }
-.iframe-info iframe{
-  display: none;
-}
-.hero{
-  margin-top: 100px;
-}
-.ws-sticky img {
-  width: 50px;
-  height: 50px;
-}
-.cards {
-
-}
-    .labelheader{
-      display: flex;
-      cursor: pointer;
-    }
-    #menulabel:checked + .ulnav{
-      display: flex;
-    }
-    .labelheader i img {
-      width: 50px;
-    }
-    .hero-img img {
-      display: none ;
-    }
-    .tipos-de-entrenamientos{
-      width: 100%;
-    }
-    .cards-training{
-     align-items: center;
-     justify-content: center;
-     gap: 0px;
-     display: flex;
-     padding:0px 50px;
-     flex-direction: row;
-    }
-    .cards-training ul {
-      width: 100%;
-      gap: 10px;
-    }
-    .cards{
-      gap: 25px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      width:250px;
-      height: 450px;
-      font-size: 15px;
-    }
-    .cards ul span {
-      font-size: 20px;
-    }
-    .cards-training ul{
-      display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    }
-    
-    .cards h3{
-    font-size: 30px;
-    }
-    
-    .cards ul {
-      gap: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      flex-wrap: nowrap;
-      padding: 0px 20px;
-  
-    }
-    .contact{
-      width: 90%;
-    }
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    background-color: #4a4e67;
+    border: solid 2px var(--azuloscuro);
+    border-radius: 0px 0px 20px 20px;
+    padding: 0;
   }
-  @media (max-width:500px){
-    .buttons-register{
-      width: 50px;
-      
-      flex-direction: column;
-    }
-   
+  .iframe-info iframe {
+    display: none;
+  }
   .navheader{
     width: 100%;
-    gap: 0px;
-    max-width: 400px  ;
-    display: flex ;
-    justify-content:space-between;
+  }
+  .hero {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
+  .about-us img {
+    width: 300px;
+  }
+  .ws-sticky img {
+    width: 50px;
+    height: 50px;
+  }
+  .labelheader {
+    display: flex;
+    cursor: pointer;
+  }
+  #menulabel:checked + .ulnav {
+    display: flex;
+  }
+  .labelheader i img {
+    width: 50px;
+  }
+  .hero img {
+    width:600px;
+    position:absolute;
+    top: 10px;
+    left: -300px;
+  }
+  
+  .hero h1{
+    font-size: 60px;
+    width: 100%;
+  }
+  .tipos-de-entrenamientos {
+    width: 100%;
+  }
+  .cards-training {
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: row;
+  }
+  .cards-training ul {
+    width: 100%;
+    gap: 10px;
+  }
+  .cards {
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 450px;
+    font-size: 15px;
+  }
+  .cards ul span {
+    font-size: 20px;
+  }
+  .cards-training ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
+  .cards h3 {
+    font-size: 30px;
+  }
+
+  .cards ul {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 0px 20px;
+  }
+  .contact {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons-register {
+    width: 50px;
+    flex-direction: column;
+  }
+
+  .navheader {
+    width: 100%;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero{
+    width: 100%
+  }
+  .hero h1{
+    font-size: 60px;
+  }
+  .hero img{
+    display: none;
+  }
+  .buttons-register button{
+    width: 100px;
+    height: 30px;
+  }
+  .sign-in a {
+    padding: 0px;
+  }
+  .about-us img {
+    width: 200px;
+  }
+  .marcas{
+    display: none;
+  }
+  
+}
