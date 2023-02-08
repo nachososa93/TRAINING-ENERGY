@@ -482,6 +482,15 @@ footer {
     transform: scale(1);
   }
 }
+@media (max-width: 1700px) {
+  .hero h1{
+    font-size: 100px;
+  }
+  .cards-training ul {
+    gap: 30px;
+  }
+  
+}
 @media (max-width: 1600px) {
   .hero-img {
     z-index: -1;
@@ -544,9 +553,11 @@ footer {
   }
   .tipos-de-entrenamientos {
     gap: 10px;
+    margin: 0px 100px  ;
+    flex-wrap: wrap;
   }
   .cards-training ul {
-    gap: 30px;
+    gap: 10px;
   }
   .cards {
     width: 400px;
@@ -642,7 +653,7 @@ footer {
   }
   .navheader{
     width: 100%;
-    padding: 0px 50px;
+    padding: 0px 30px;
   }
   
   .hero {
@@ -752,13 +763,20 @@ footer {
   .buttons-register {
     flex-direction: column;
   }
-
+.inscripcion input {
+  width: 100%;
+}
+.tipos-de-entrenamientos h2{
+  width: 100%;
+  font-size: 25px;
+}
   .navheader {
   width: 100%;
   gap: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   }
   .hero{
     width: 100%;
