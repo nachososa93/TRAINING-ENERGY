@@ -444,8 +444,8 @@ footer {
 .ws-sticky {
   display: flex;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 10px;
+  right: 10px;
 }
 .ws-sticky img {
   width: 100px;
@@ -496,6 +496,10 @@ footer {
     z-index: -1;
     position: absolute;
     top: 130px;
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
   }
   .hero {
     margin-top: 300px;
@@ -506,6 +510,7 @@ footer {
   }
   .cards-training  {
     gap: 50px;
+    width: 100%;
   }
   .marcas{
     padding-top: 400px;
@@ -583,6 +588,9 @@ footer {
   .iframe-info iframe{
     width: 70%;
   }
+  .about-us img{
+    width: 400px;
+  }
   }
 
 @media (max-width: 1080px) {
@@ -598,7 +606,7 @@ footer {
   }
   .marcas {
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 150px;
   }
   .navheader ul {
     padding-right: 50px;
@@ -612,7 +620,7 @@ footer {
     width: 800px;
     position: absolute;
     top: 250;
-    right: -400px;
+    right:200px;
   }
   .hero{
     margin-top: 190px;
@@ -633,10 +641,13 @@ footer {
   .cards img {
     display: none;
   }
+  #cards-training-ul {
+    gap: 50px;
+  }
   .cards {
     gap: 100px;
-    width: 250px;
-  height: 700px; 
+    width: 500px;
+   height: 700px; 
   }
   .cards ul li {
     list-style-type: none;
@@ -733,13 +744,19 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 0px;
+    margin: 0px;
     display: flex;
-    padding: 0px 20px;
+    padding: 0px;
     flex-direction: row;
+   
   }
-  .cards-training ul {
-    width: 100%;
+  #cards-training-ul {
+    width: 80%;
     gap: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
   }
   .cards {
     gap: 25px;
@@ -791,9 +808,15 @@ footer {
 .inscripcion input {
   width: 100%;
 }
+.tipos-de-entrenamientos{
+  margin: 0px;
+}
 .tipos-de-entrenamientos h2{
   width: 100%;
   font-size: 25px;
+}
+#labelradio{
+  width: 100%;
 }
   .navheader {
   width: 100%;
@@ -844,6 +867,9 @@ footer {
   }
   .cards {
     width:500px ;
+  }
+  .iframe-info{
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
