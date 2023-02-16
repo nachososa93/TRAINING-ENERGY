@@ -64,7 +64,7 @@
 
 @media (max-width: 1440px) {
   .navheader {
-    padding: 0px;
+    padding: 20px;
   }
 
   .navheader {
@@ -139,6 +139,27 @@
 
   .about-us img {
     width: 400px;
+  }
+  .div-videos ul li video{
+    width: 300px;
+  }
+}
+@media (max-width: 1280px) {
+
+  .div-videos ul li video{
+    width: 250px;
+  }
+  .planalimentacion{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    padding: 20px 60px;
+  }
+  .planalimentacion img{
+    width: 70%;
+    margin: 0px;
   }
 }
 
@@ -243,6 +264,19 @@
   .contact iframe {
     width: 400px;
   }
+  .log-in, .recoverypassword{
+    width: 80%;
+  }
+  .video-instructivos{
+    width: 90%;
+    padding: 0px;
+  }
+  .div-videos{
+    width: 100%;
+  }
+  .div-videos ul {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 880px) {
@@ -289,7 +323,7 @@
   }
 
   .labelheader {
-    display: flex;
+    display: none;
     cursor: pointer;
   }
 
@@ -404,17 +438,17 @@
     width: 70px;
     height: 70px;
   }
-  .log-in{
+  .log-in, .recoverypassword{
     width: 500px;
     height: 600px;
     gap: 50px;
     justify-content: center;
     align-items: center;
   }
-  .log-in form{
+  .log-in form, .recoverypassword form{
     gap: 30px;
   }
-  #username,#password{
+  #username, #password,#email, #nombre, #repeatpassword{
     width: 200px;
   }
   .div-label-form {
@@ -423,12 +457,29 @@
     padding: 30px 50px;
     height: 100px;
   }
+  .ul-nav-login{
+    gap: 5px;
+  }
+  .register{
+    gap:10px;
+    margin-top: 30px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .register form{
+    gap: 10px;
+  }
 }
 
 @media (max-width: 700px) {
   .hero img {
     width: 600px;
     left: -330px;
+  }
+  .labelheader {
+    display: flex;
+    cursor: pointer;
   }
 
   .marcasimg {
@@ -438,11 +489,11 @@
     display: flex;
   }
   #logonav{
-    display: none;
+    display: flex;
   }
   .ul-nav-login{
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 30px;
   top: 100px;
@@ -452,9 +503,34 @@
   border-radius: 0px 0px 20px 20px;
   padding: 0;
   border-top: none;
-  width: 400px;
+  width: 80%;
   height: 300px;
   }
+
+  #menulabel:checked + .ul-nav-login {
+    display: flex;
+  }
+  .log-in{
+    width: 400px;
+    height: 500px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .log-in h2, .recoverypassword h2 {
+    font-size:30px ;
+  }
+  .div-label-form{
+    gap: 3px;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .register form div {
+    justify-content: space-between;
+  }
+ 
 }
 
 
@@ -469,6 +545,9 @@
 
   .navheader ul {
     left: 50px;
+  }
+  .recoverypassword {
+    width: 80%;
   }
 }
 
@@ -611,6 +690,35 @@
   .iframe-info {
     width: 100%;
   }
+  .log-in{
+    width: 80%;
+  }
+  .log-in h2, .recoverypassword h2{
+    font-size: 25px;
+  
+  }
+  .register h2 {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+  .div-label-form{
+    justify-content: space-between;
+  }
+  .div-label-form label {
+    font-size: 20px;
+  }
+  #password, #username,#email, #nombre, #repeatpassword{
+    width: 140px;
+    
+  }
+  .log-in form button, .register form button{
+    width: 120px;
+    height: 40px;
+  }
+  .recoverypassword form button {
+    width: 200px;
+    height: 40px;
+  }
 }
 @media (max-width: 400px) {
   .tipos-de-entrenamientos h2 {
@@ -624,6 +732,17 @@
   .cards h3 {
     font-size: 30px;
   }
+  #password, #username, #email, #nombre, #repeatpassword{
+    width: 120px;
+    height: 30px;
+  }
+  .div-label-form label{
+    font-size:20px;
+  }
+  .log-in h2 , .recoverypassword h2, .register h2{
+    font-size: 23px;
+  }
+
 }
 
 

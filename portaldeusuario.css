@@ -127,16 +127,19 @@
 .img-gim{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
   padding-top: 120px;
   
 }
 
 .slide-img {
-	width: 100%;
+	width: 80%;
   height: 50%;
 overflow: hidden;
-box-shadow: 10px 10px 15px var(--verde) 
+box-shadow: 10px 10px 10px 10px var(--verde);
+border-radius: 15px;
 
 }
 
@@ -182,6 +185,9 @@ box-shadow: 10px 10px 15px var(--verde)
   width: 1200px;
   border-radius: 50px;
   margin-top: 120px;
+}
+.div-videos ul {
+  gap: 15px;
 }
 
 @keyframes slide {
