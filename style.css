@@ -130,7 +130,7 @@ button:hover {
   color: var(--gris);
   font-weight: 1200;
   font-size: 120px;
-  animation: myAnim 2s ease-in 1 normal none;
+  animation: slideh1 1s ease-in 1 normal none;
 }
 .hero h1 span {
   color: var(--verde);
@@ -139,7 +139,7 @@ button:hover {
   color: whitesmoke;
 }
 .hero-img {
-  animation: heroimg 2s ease-in 1 normal none;
+  animation: heroimg 1s ease-in 1 normal none;
 }
 .marcas {
   display: flex;
@@ -292,7 +292,7 @@ button:hover {
   border: 3px solid var(--gris);
   border-radius: 30px;
   gap: 30px;
-  animation: cards 2s ease-in-out 1s 1 normal forwards;
+  animation: cards 1s ease-in-out 1s 1 normal forwards;
   box-shadow: 12px 13px 27px 0px var(--celeste);
 }
 .cards ul {
@@ -450,7 +450,7 @@ footer {
   width: 100px;
   height: 100px;
 }
-@keyframes myAnim {
+@keyframes slideh1 {
   0% {
     opacity: 0;
     transform: translateX(-250px);

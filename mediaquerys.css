@@ -270,6 +270,9 @@
   .video-instructivos{
     width: 90%;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .div-videos{
     width: 100%;
