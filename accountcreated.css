@@ -83,7 +83,7 @@
     border-radius: 10px;
     
   }
-  .accountcreated-spam{
+  .accountcreated-span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,13 +95,13 @@
     gap: 100px;
     box-shadow: 12px 13px 27px 0px var(--celeste);
     border-radius: 20px;
-    animation: log-in 2s ease-in 1 normal none;
+    animation: log-in 1s ease-in 1 normal none;
   }
 
-  .accountcreated-spam h3{
+  .accountcreated-span h3{
 font-size: 35px;
   }
-  .accountcreated-spam button{
+  .accountcreated-span button{
     padding: 8px 20px;
 color: var(--azuloscuro);
 font-weight: 400;
@@ -112,7 +112,7 @@ border-radius: 10px;
 cursor: pointer;
 margin-bottom: 50px;
   }
-.accountcreated-spam button a{
+.accountcreated-span button a{
     color: var(--azuloscuro);
     font-size: 20px;
 }

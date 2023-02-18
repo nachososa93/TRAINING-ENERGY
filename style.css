@@ -269,8 +269,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 80px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 60px;
+  margin-left: 80px;
 }
 .tipos-de-entrenamientos h2 {
   font-size: 40px;

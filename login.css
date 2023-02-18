@@ -89,11 +89,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 60px;
     background-color: var(--gris) ;
     box-shadow: 12px 13px 27px 0px var(--celeste);
     border-radius: 20px;
-    animation: log-in 2s ease-in 1 normal none;
+    animation: log-in 1s ease-in 1 normal none;
     flex-direction: column;
 }
 .log-in h2{
