@@ -30,7 +30,11 @@
     width: 100%;
     padding-left: 120px;
   }
+.hero h1
+{
+  font-size: 120px;
 
+}
   .cards-training {
     margin: 0px 40px;
   }
@@ -62,6 +66,9 @@
 
   .buttons-register {
     gap: 20px;
+  }
+  .marcas{
+    padding: 200px;
   }
 }
 
@@ -105,6 +112,7 @@
 
   .marcas {
     margin-top: 0px;
+    padding: 80px;
   }
 
   .tipos-de-entrenamientos {
@@ -174,18 +182,25 @@
   .buttons-register {
     gap: 10px;
   }
-
+  .navheader ul {
+    width: 80%;
+  }
   .navheader {
     flex-wrap: nowrap;
+  flex-direction: row;
   }
+ 
 
   .ulnav li a {
     font-size: 15px;
   }
-
+header nav{
+  flex-direction: row-reverse;
+}
   .ul-nav-login {
     gap: 10px;
-    display: none;
+    display: flex;
+  
   }
 
   #iconlabellogin {
@@ -197,9 +212,6 @@
     padding-top: 150px;
   }
 
-  .navheader ul {
-    padding-right: 50px;
-  }
 
   .hero h1 {
     color: var(--verdeclaro);
@@ -274,6 +286,7 @@
   }
   .log-in, .recoverypassword{
     width: 80%;
+    height: 800px;
   }
   .video-instructivos{
     width: 90%;
@@ -298,7 +311,10 @@
   #menulabel:checked + .ulnav {
     display: flex;
   }
-  .navheader ul {
+  #menulabel:checked + .ul-nav-login{
+    display: flex;
+  }
+  .navheader ul{
     display: none;
     position: absolute;
     top: 100px;
@@ -310,12 +326,35 @@
     background-color: #4a4e67;
     border: solid 2px var(--azuloscuro);
     border-radius: 0px 0px 20px 20px;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border-top: none;
+  }
+  .ul-nav-login{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 85px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    background-color: #4a4e67;
+    border: solid 2px var(--azuloscuro);
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px;
+    padding: 0px;
+    border-top: none;
+    height: 200px;
+    gap: 30px;
+  }
+  #iconlabellogin{
+    display: flex;
   }
   .labelheader {
     display: flex;
     cursor: pointer;
+    padding-left: 20px;
   }
   .labelheader i img {
     width: 60px;
@@ -324,7 +363,10 @@
   .slide-img{
     width: 70%;
   }
-  
+  #iconlabellogin{
+  padding: 0px;
+}
+
 }
 
 @media (max-width: 880px) {
@@ -374,15 +416,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 50px;
   }
 
   .formcontact h3 {
     font-size: 25px;
   }
-
-
-  
-
   .hero img {
     width: 800px;
     position: absolute;
@@ -493,7 +532,7 @@
     height: 100px;
   }
   .ul-nav-login{
-    gap: 5px;
+    gap: 30px;
   }
   .register{
     gap:10px;
@@ -508,6 +547,16 @@
   .planalimentacion img{
     border-radius: 10px;
   }
+  .marcas{
+    padding: 0px;
+  }
+  .labelheader{
+    display: flex
+  }
+  
+ header nav {
+  flex-direction: row-reverse;
+ }
 }
 
 @media (max-width: 700px) {
@@ -545,7 +594,8 @@
   padding: 0;
   border-top: none;
   width: 80%;
-  height: 300px;
+  height: 250px;
+  gap: 40px;
 
   }
 
@@ -586,7 +636,7 @@
   }
 
   .navheader ul {
-    left: 50px;
+    left: 60px;
   }
   .recoverypassword {
     width: 80%;
@@ -607,6 +657,9 @@
     justify-content: center;
     align-items: center;
   }
+  .navheader ul {
+    left: 50px;
+  }
 
   .buttons-register {
     flex-direction: column;
@@ -625,7 +678,9 @@
     font-size: 12px;
     padding: 0px;
   }
-
+.about-us {
+  padding-top:50px 
+};
   .inscripcion input {
     width: 100%;
   }
@@ -663,7 +718,8 @@
   .hero h1 {
     font-size: 60px;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-top: 50px;
   }
 
   .hero-img {
@@ -761,6 +817,9 @@
     width: 140px;
     
   }
+    #name, #email, #telefono{
+  width: 100%;
+  }
   .log-in form button, .register form button{
     width: 120px;
     height: 40px;
@@ -786,6 +845,9 @@
 #menulabeluser i img{
   width: 50px;
   height: 50px;
+}
+.navheader ul {
+  left: 37px;
 }
 .buttons-portal button {
   width: 120px;
@@ -822,5 +884,8 @@
     align-items: center;
     display: flex;
 
+  }
+  .button-form input {
+    width: 100px;
   }
 }
