@@ -1,7 +1,4 @@
 @media (max-width: 1700px) {
-  /* *{
-    border: solid 1px;
-  }*/
   .hero h1 {
     font-size: 100px;
   }
@@ -9,7 +6,7 @@
   .cards-training ul {
     gap: 30px;
   }
-  .tipos-de-entrenamientos{
+  .tipos-de-entrenamientos {
     margin: 0px;
   }
 }
@@ -30,11 +27,9 @@
     width: 100%;
     padding-left: 120px;
   }
-.hero h1
-{
-  font-size: 120px;
-
-}
+  .hero h1 {
+    font-size: 120px;
+  }
   .cards-training {
     margin: 0px 40px;
   }
@@ -67,7 +62,7 @@
   .buttons-register {
     gap: 20px;
   }
-  .marcas{
+  .marcas {
     padding: 200px;
   }
 }
@@ -151,16 +146,15 @@
   .about-us img {
     width: 400px;
   }
-  .div-videos ul li video{
+  .div-videos ul li video {
     width: 300px;
   }
 }
 @media (max-width: 1280px) {
-
-  .div-videos ul li video{
+  .div-videos ul li video {
     width: 250px;
   }
-  .planalimentacion{
+  .planalimentacion {
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -168,15 +162,14 @@
     margin-top: 0px;
     padding: 20px 60px;
   }
-  .planalimentacion img{
+  .planalimentacion img {
     width: 100%;
     margin: 0px;
   }
   .slide-img {
     width: 80%;
   }
-  }
-
+}
 
 @media (max-width: 1080px) {
   .buttons-register {
@@ -187,20 +180,18 @@
   }
   .navheader {
     flex-wrap: nowrap;
-  flex-direction: row;
+    flex-direction: row;
   }
- 
 
   .ulnav li a {
     font-size: 15px;
   }
-header nav{
-  flex-direction: row-reverse;
-}
+  header nav {
+    flex-direction: row-reverse;
+  }
   .ul-nav-login {
     gap: 10px;
     display: flex;
-  
   }
 
   #iconlabellogin {
@@ -211,7 +202,6 @@ header nav{
     margin-top: 0px;
     padding-top: 150px;
   }
-
 
   .hero h1 {
     color: var(--verdeclaro);
@@ -284,37 +274,37 @@ header nav{
   .contact iframe {
     width: 400px;
   }
-  .log-in, .recoverypassword{
+  .log-in,
+  .recoverypassword {
     width: 80%;
     height: 800px;
   }
-  .video-instructivos{
+  .video-instructivos {
     width: 90%;
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .div-videos{
+  .div-videos {
     width: 100%;
   }
   .div-videos ul {
     flex-wrap: wrap;
-   
   }
-  .div-videos ul li video{
+  .div-videos ul li video {
     width: 100%;
   }
-  .planalimentacion{
+  .planalimentacion {
     width: 100%;
   }
   #menulabel:checked + .ulnav {
     display: flex;
   }
-  #menulabel:checked + .ul-nav-login{
+  #menulabel:checked + .ul-nav-login {
     display: flex;
   }
-  .navheader ul{
+  .navheader ul {
     display: none;
     position: absolute;
     top: 100px;
@@ -330,7 +320,7 @@ header nav{
     padding: 0px;
     border-top: none;
   }
-  .ul-nav-login{
+  .ul-nav-login {
     display: none;
     position: absolute;
     top: 100px;
@@ -348,7 +338,7 @@ header nav{
     height: 200px;
     gap: 30px;
   }
-  #iconlabellogin{
+  #iconlabellogin {
     display: flex;
   }
   .labelheader {
@@ -360,18 +350,15 @@ header nav{
     width: 60px;
     height: 60px;
   }
-  .slide-img{
+  .slide-img {
     width: 70%;
   }
-  #iconlabellogin{
-  padding: 0px;
-}
-
+  #iconlabellogin {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 880px) {
-  
-
   .iframe-info iframe {
     display: none;
   }
@@ -398,8 +385,7 @@ header nav{
     height: 50px;
   }
 
-  
-  #menulabeluser{
+  #menulabeluser {
     display: flex;
     cursor: pointer;
   }
@@ -499,7 +485,9 @@ header nav{
   .marcas {
     padding-top: 250px;
   }
-  .planalimentacion h2, .img-gim h2, .video-instructivos h2{
+  .planalimentacion h2,
+  .img-gim h2,
+  .video-instructivos h2 {
     font-size: 40px;
   }
 }
@@ -512,17 +500,22 @@ header nav{
     width: 70px;
     height: 70px;
   }
-  .log-in, .recoverypassword{
+  .log-in,
+  .recoverypassword {
     width: 500px;
     height: 600px;
     gap: 50px;
     justify-content: center;
     align-items: center;
   }
-  .log-in form, .recoverypassword form{
+  .log-in form,
+  .recoverypassword form {
     gap: 30px;
   }
-  #username, #password,#nombre,#repeatpassword{
+  #username,
+  #password,
+  #nombre,
+  #repeatpassword {
     width: 200px;
   }
   .div-label-form {
@@ -531,32 +524,32 @@ header nav{
     padding: 30px 50px;
     height: 100px;
   }
-  .ul-nav-login{
+  .ul-nav-login {
     gap: 30px;
   }
-  .register{
-    gap:10px;
+  .register {
+    gap: 10px;
     margin-top: 30px;
     width: 80%;
     justify-content: space-around;
     align-items: center;
   }
-  .register form{
+  .register form {
     gap: 10px;
   }
-  .planalimentacion img{
+  .planalimentacion img {
     border-radius: 10px;
   }
-  .marcas{
+  .marcas {
     padding: 0px;
   }
-  .labelheader{
-    display: flex
+  .labelheader {
+    display: flex;
   }
-  
- header nav {
-  flex-direction: row-reverse;
- }
+
+  header nav {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (max-width: 700px) {
@@ -575,44 +568,44 @@ header nav{
   #iconlabellogin {
     display: flex;
   }
-  #logonav{
+  #logonav {
     display: flex;
   }
-  #navuser{
+  #navuser {
     flex-direction: row-reverse;
   }
-  .ul-nav-login{
-  position: absolute;
-  display: none;
-  flex-direction: column;
-  gap: 30px;
-  top: 100px;
-  left:10% ;
-  background-color: #4a4e67;
-  border: solid 2px var(--azuloscuro);
-  border-radius: 0px 0px 20px 20px;
-  padding: 0;
-  border-top: none;
-  width: 80%;
-  height: 250px;
-  gap: 40px;
-
+  .ul-nav-login {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    top: 100px;
+    left: 10%;
+    background-color: #4a4e67;
+    border: solid 2px var(--azuloscuro);
+    border-radius: 0px 0px 20px 20px;
+    padding: 0;
+    border-top: none;
+    width: 80%;
+    height: 250px;
+    gap: 40px;
   }
 
   #menulabel:checked + .ul-nav-login {
     display: flex;
   }
-  .log-in{
+  .log-in {
     width: 400px;
     height: 500px;
     gap: 30px;
     justify-content: center;
     align-items: center;
   }
-  .log-in h2, .recoverypassword h2 {
-    font-size:30px ;
+  .log-in h2,
+  .recoverypassword h2 {
+    font-size: 30px;
   }
-  .div-label-form{
+  .div-label-form {
     gap: 3px;
     justify-content: space-around;
     width: 100%;
@@ -622,9 +615,7 @@ header nav{
   .register form div {
     justify-content: space-between;
   }
- 
 }
-
 
 @media (max-width: 600px) {
   .marcas {
@@ -641,14 +632,17 @@ header nav{
   .recoverypassword {
     width: 80%;
   }
-  .planalimentacion h2, .img-gim h2, .video-instructivos h2{
+  .planalimentacion h2,
+  .img-gim h2,
+  .video-instructivos h2 {
     font-size: 30px;
   }
-  .slide-img{
-    width: 85%;}
-    .accountcreated-span h3{
-      font-size: 25px;
-    }
+  .slide-img {
+    width: 85%;
+  }
+  .accountcreated-span h3 {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -678,9 +672,9 @@ header nav{
     font-size: 12px;
     padding: 0px;
   }
-.about-us {
-  padding-top:50px 
-};
+  .about-us {
+    padding-top: 50px;
+  }
   .inscripcion input {
     width: 100%;
   }
@@ -796,45 +790,50 @@ header nav{
   .iframe-info {
     width: 100%;
   }
-  .log-in{
+  .log-in {
     width: 80%;
   }
-  .log-in h2, .recoverypassword h2{
+  .log-in h2,
+  .recoverypassword h2 {
     font-size: 25px;
-  
   }
   .register h2 {
     font-size: 28px;
     padding-left: 20px;
   }
-  .div-label-form{
+  .div-label-form {
     justify-content: space-between;
   }
   .div-label-form label {
     font-size: 20px;
   }
-  #password, #username, #nombre, #repeatpassword{
+  #password,
+  #username,
+  #nombre,
+  #repeatpassword {
     width: 140px;
-    
   }
-    #name, #email, #telefono{
-  width: 100%;
+  #name,
+  #email,
+  #telefono {
+    width: 100%;
   }
-  .log-in form button, .register form button{
+  .log-in form button,
+  .register form button {
     width: 120px;
     height: 40px;
   }
   .recoverypassword form button {
     width: 200px;
     height: 40px;
-  } 
+  }
   .slide-img ul {
     gap: 30px;
   }
-  .video-instructivos{
+  .video-instructivos {
     width: 70%;
   }
-  .planalimentacion img{
+  .planalimentacion img {
     border-radius: 10px;
   }
 }
@@ -842,22 +841,22 @@ header nav{
   .tipos-de-entrenamientos h2 {
     font-size: 15px;
   }
-#menulabeluser i img{
-  width: 50px;
-  height: 50px;
-}
-.navheader ul {
-  left: 37px;
-}
-.buttons-portal button {
-  width: 120px;
-  height: 30px;
-  padding: 0px;
-}
-.buttons-portal button a {
-  font-size: 12px;
-  width: 100%;
-}
+  #menulabeluser i img {
+    width: 50px;
+    height: 50px;
+  }
+  .navheader ul {
+    left: 37px;
+  }
+  .buttons-portal button {
+    width: 120px;
+    height: 30px;
+    padding: 0px;
+  }
+  .buttons-portal button a {
+    font-size: 12px;
+    width: 100%;
+  }
   .cards ul li {
     font-size: 12px;
   }
@@ -865,25 +864,32 @@ header nav{
   .cards h3 {
     font-size: 30px;
   }
-  #password, #username, #nombre, #repeatpassword{
+  #password,
+  #username,
+  #nombre,
+  #repeatpassword {
     width: 120px;
     height: 30px;
   }
-  .div-label-form label{
-    font-size:20px;
+  .div-label-form label {
+    font-size: 20px;
   }
-  .log-in h2 , .recoverypassword h2, .register h2, .planalimentacion h2, .video-instructivos h2, .img-gim h2{
+  .log-in h2,
+  .recoverypassword h2,
+  .register h2,
+  .planalimentacion h2,
+  .video-instructivos h2,
+  .img-gim h2 {
     font-size: 20px;
-  }.accountcreated-span h3{
+  }
+  .accountcreated-span h3 {
     font-size: 20px;
-
   }
   .accountcreated-span {
     gap: 30px;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     display: flex;
-
   }
   .button-form input {
     width: 100px;
