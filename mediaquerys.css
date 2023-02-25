@@ -169,11 +169,18 @@
   .slide-img {
     width: 80%;
   }
+  .register {
+    gap: 10px;
+    margin-top: 30px;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media (max-width: 1080px) {
   .buttons-register {
-    gap: 10px;
+    gap: 5px;
   }
   .navheader ul {
     width: 80%;
@@ -515,7 +522,8 @@
   #username,
   #password,
   #nombre,
-  #repeatpassword {
+  #repeatpassword,
+  #email{
     width: 200px;
   }
   .div-label-form {
@@ -528,14 +536,14 @@
     gap: 30px;
   }
   .register {
-    gap: 10px;
+    gap: 5px;
     margin-top: 30px;
     width: 80%;
     justify-content: space-around;
     align-items: center;
   }
   .register form {
-    gap: 10px;
+    gap: 1px;
   }
   .planalimentacion img {
     border-radius: 10px;
@@ -810,11 +818,12 @@
   #password,
   #username,
   #nombre,
+  #email,
   #repeatpassword {
     width: 140px;
   }
   #name,
-  #email,
+  
   #telefono {
     width: 100%;
   }
@@ -867,6 +876,7 @@
   #password,
   #username,
   #nombre,
+  #email,
   #repeatpassword {
     width: 120px;
     height: 30px;
